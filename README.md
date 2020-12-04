@@ -1,2 +1,3 @@
 # TinDog-demo-website
-A demo dating website for dogs.
+A demo, responsive dating website for dogs, styled using Bootstrap.
+
