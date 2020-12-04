@@ -1,0 +1,171 @@
+body{
+    font-family: "Montserrat";
+}
+
+#title{
+    color: #fff;
+   background-color: #ff4c68 ;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+.title-left-col{
+    max-width: 50%;
+}
+
+h1{
+    font-family: "Montserrat";
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+h2{
+   font-weight: 600;
+    font-size: 2.5rem;
+}
+.iphone-mockup-img{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+
+/*########### Navbar ############*/
+.nav-link{
+    font-family: "Montserrat";
+    font-size: 1.2rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+.fa-check-circle, .fa-bullseye, .fa-heart{
+    color: #ef8172;
+    padding-left: 40%;
+    padding-right: auto;
+    margin-bottom: 20px;
+}
+
+.features{
+    font-size: 1.5rem;
+    font-weight:900;
+    text-align: center;
+}
+
+.features-desc{
+    margin-top: 20px;
+    color: #8f8f8f;
+    font-size: 1.2rem;
+    text-align: center;
+}
+#features{
+    background-color: #ffffff;
+    padding: 7% 15%;
+    position: relative;
+}
+.f{
+    align-content: center;
+}
+
+.fa-check-circle:hover, .fa-bullseye:hover, .fa-heart:hover{
+    color: #ff4c68;
+}
+
+/*Testimonials*/
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    color: #fff;
+}
+
+.carousel-inner{
+    padding: 7% 15%;
+}
+.dog-img{
+    width: 15%;
+    border-radius: 100%;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+
+/* press*/
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*Pricing*/
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    
+    .iphone-mockup-img{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+}
+
+/*####### Call to action #######*/
+#cta{
+    background-color: #ff4c68;
+    padding: 100px 200px;
+    text-align: center;
+}
+
+.cta-h3{
+    font-family: "Montserrat" ;
+    color: #fff;
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/*Footer*/
+
+#footer{
+    margin: 40px 0;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#footer p{
+    padding-top: 20px;
+    color: darkgray;
+}
+
+#footer i{
+    margin-right: 20px;
+    font-size: 1.5rem;
+}
